@@ -1,0 +1,40 @@
+
+
+.navbar,
+.card,
+.accordion-item,
+footer {
+    background-color: #1a1a1a !important;
+}
+
+/* Imagem de perfil */
+#img-perfil {
+    width:230px;
+    height:230px;
+    object-fit:cover;
+}
+#img-perfil:hover {
+    scale: 1.1;
+    border-radius: 5px !important;
+    transition: 0.3s;
+    transform: 0.2s;
+    cursor: pointer;
+}
+
+
+/* Efeito modal perfil */
+.modal.fade .modal-dialog {
+    transform: translateX(100px);
+    transition: all .3s ease;
+}
+
+.modal.show .modal-dialog {
+    transform: translateX(0);
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: contain;
+    background-color: #111;
+    cursor: pointer;
+}
